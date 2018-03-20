@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <a class="navbar-brand" href=""></a>
+        <div class="col-1"></div>
+        <div class="col">
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/logo@4x.png" width="181px" height="76" alt="">
+            </a>
+        </div>
+        <div class="col"></div>
+
+        <div class="col-md-4">
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/shopping-cart.png" style="width:63px" type="button"
+                class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="Nouvelle vente">
+
+
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/plus-circle.png" style="width:63px" type="button" class="btn btn-link"
+                data-toggle="modal" data-target="#exampleModal" data-whatever="Nouvelle entrée dans le stock">
+
+
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/minus-circle.png" style="width:63px" type="button" class="btn btn-link"
+                data-toggle="modal" data-target="#exampleModal" data-whatever="Quantité perdu/jeté">
+
+
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/print.png" style="width:63px" type="button" class="btn btn-link"
+                data-toggle="modal" data-target="#exampleModal" data-whatever="Impression">
+
+
+            <img src="/home/mikael/Documents/Eval_C4_faisPalLPoireau-master/logo/map-marker-alt.png" style="width:63px" type="button"
+                class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="Géomarketing">
+
+        </div>
+    </nav>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form row">
+                            <div class="form-group col-sm-3">
+                                <label for="exampleFormControlInput1">Heure</label>
+                                <input type="time" class="form-control" id="exampleFormControlInput1" placeholder="15:34">
+
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="inputCity">Ville</label>
+                                <select class="form-control" id="inputCity">
+                                    <option selected>Pamiers city</option>
+                                    <option>Foix city</option>
+                                </select>
+
+                            </div>
+
+
+                    </form>
+                    </div>
+
+
+
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form row">
+                                <div class="form-group col-sm-3">
+                                    <label for="quatity">Quantité</label>
+                                    <input type="text" class="form-control" id="numero" placeholder="">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="inputfruit">Fruit/légume</label>
+                                    <select class="form-control" id="inputfruti">
+                                        <option selected>Patate</option>
+                                        <option>banane</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form row">
+                                <div class="form-group col-sm-3">
+                                    <label for="quatity">Quantité</label>
+                                    <input type="text" class="form-control" id="numero" placeholder="">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="inputfruit">Fruit/légume</label>
+                                    <select class="form-control" id="inputfruti">
+                                        <option selected>Tomate</option>
+                                        <option>banane</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form row">
+                                <div class="form-group col-sm-3">
+                                    <label for="quatity">Quantité</label>
+                                    <input type="text" class="form-control" id="numero" placeholder="">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="inputfruit">Fruit/légume</label>
+                                    <select class="form-control" id="inputfruti">
+                                        <option selected>Salade</option>
+                                        <option>banane</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+                    <div class="modal-footer text-center">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                        <button type="button" class="btn btn-primary">Ajouter un élément</button>
+                        <button type="button" class="btn btn-success">Valider la vente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+    </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
